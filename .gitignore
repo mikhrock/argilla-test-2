@@ -1,0 +1,51 @@
+# Ignore everything
+/*
+
+# Must Have
+!.gitignore
+!.gitmodules
+!README.md
+
+# Backend - TriggMine module
+!/backend
+/backend/*
+!/backend/protected
+/backend/protected/*
+!/backend/protected/modules
+/backend/protected/modules/*
+!/backend/protected/modules/triggmine
+
+
+# Backend - Product edit event
+!/backend/protected/modules/product
+/backend/protected/modules/product/*
+!/backend/protected/modules/product/models
+/backend/protected/modules/product/models/*
+!/backend/protected/modules/product/models/BProduct.php
+
+
+# Frontend - Navigation event
+!/protected
+/protected/*
+!/protected/views
+/protected/views/*
+!/protected/views/product
+/protected/views/product/*
+!/protected/views/product/one
+/protected/views/product/one/*
+!/protected/views/product/one/product.php
+
+# Frontend - Cart and Order events
+!/protected/controllers
+/protected/controllers/*
+!/protected/controllers/BasketController.php
+
+# Frontend - User events
+!/protected/controllers/UserController.php
+
+# TriggMine JS libraries
+!/js
+/js/*
+!js/vendor
+js/vendor/*
+!js/vendor/triggmine-scripts.js
