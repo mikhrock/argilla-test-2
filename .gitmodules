@@ -1,0 +1,4 @@
+[submodule "backend/protected/modules/triggmine"]
+	path = backend/protected/modules/triggmine
+	url = https://github.com/TriggMineAdmin/TriggMine-Yii1-SDK
+	branch = argilla
